@@ -12,7 +12,7 @@ namespace Exercicio01
                 Console.WriteLine($"Digite um numero entre 0 e 400");
                 
                 numeroDigitado = int.Parse(Console.ReadLine());
-                if(numeroDigitado < 0 || numeroDigitado >= 400)
+                if(numeroDigitado < 0 || numeroDigitado >= 4000)
                 {
                     System.Console.WriteLine("Numero precisa ser maior que 0 e menor que 400");
                     entrada = false;
