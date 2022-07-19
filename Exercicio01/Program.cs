@@ -27,10 +27,11 @@ namespace Exercicio01
         {
             int[] num = new int[]{1, 4, 5, 9, 10, 40, 50, 90,
                             100, 400, 500, 900, 1000};
+
             string[] letras = new string[]{"I", "IV", "V", "IX", "X", "XL",
             "L", "XC", "C", "CD", "D", "CM", "M"};
 
-            for(int i = 12; i > 0; i-- )
+            for(int i = 12; i >= 0; i-- )
             {
                 int div = (int)(numero / num[i]);
                 numero %= num[i];
